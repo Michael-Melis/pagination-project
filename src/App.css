@@ -1,3 +1,36 @@
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: #fff;
+  background-color: #2b2eff;
+}
+
+.pagonationActive a {
+  color: #fff;
+  background: #2b2eff;
+}
+
+.user {
+  border: 3px solid black;
+  margin: 1rem 5rem;
+  font-size: 2rem;
+}
+
 .App {
   text-align: center;
 }
